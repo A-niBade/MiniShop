@@ -1,0 +1,22 @@
+@font-face {
+  font-family: MedievalSharp;
+  src: url(/static/fonts/MedievalSharp.ttf);
+}
+
+:root {
+  --mainFont: MedievalSharp;
+}
+
+.titulo__llegados {
+  font-size: 50px;
+  font-family: MedievalSharp;
+  font-weight: bold;
+}
+
+.span__derecho {
+  transform: scaleX(-1);
+}
+
+.card-img-top {
+  height: 350px;
+}

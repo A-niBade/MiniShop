@@ -1,0 +1,10 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 70px;
+  height: 70px;
+  object-fit: fill;
+}
+
+.carousel img {
+  height: 750px;
+}

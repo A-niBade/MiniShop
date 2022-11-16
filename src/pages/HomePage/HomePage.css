@@ -1,0 +1,24 @@
+@font-face {
+  font-family: MedievalSharp;
+  src: url(/static/fonts/MedievalSharp.ttf);
+}
+
+:root {
+  --mainFont: MedievalSharp;
+}
+
+.logo__home {
+  height: 60px;
+  width: 60px;
+}
+
+.span__homepage {
+  font-size: 50px;
+  margin: 0;
+}
+
+.h2__home {
+  font-size: 50px;
+  font-family: var(--mainFont);
+  font-weight: bold;
+}
