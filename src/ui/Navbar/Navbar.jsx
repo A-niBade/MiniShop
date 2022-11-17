@@ -6,7 +6,7 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link className="navbar-brand navbar__logo" to={"/home"}>
-          <img src="/static/tenderizer.png" className="navbar__icon" />
+          <img src="/static/miniatura.png" className="navbar__icon" />
           <p className="navbar__logo--nombre">
             Mini<span className="navbar__logo--nombre--span">Shop</span>
           </p>
@@ -52,6 +52,7 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
+      <div className=""></div>
     </nav>
   );
 };

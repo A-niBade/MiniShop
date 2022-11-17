@@ -11,11 +11,12 @@ export const ProductosHome = () => {
           <div className="col-sm-4 mb-3">
             <div className="col card">
               <img src={destacado.img.caja} className="card-img-top p-4" />
-              <div className="card-body">
+              <div className="card-body text-center">
                 <h5 className="card-title text-center">{destacado.nombre}</h5>
                 <p className="card-text text-center">
                   $ {destacado.precio.toFixed(3)}
                 </p>
+                <button className="btn btn-primary">Agregar al carro</button>
               </div>
             </div>
           </div>
