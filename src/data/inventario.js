@@ -1,6 +1,7 @@
 export const inventario = [
   {
     sku: 2801,
+    linea: "Pinturas",
     contenido: "24 ml",
     nombre: "Blue Clear Air",
     marca: "Citadel",
@@ -14,6 +15,7 @@ export const inventario = [
   {
     sku: 2802,
     contenido: "24 ml",
+    linea: "Pinturas",
     nombre: "Sigismund Yellow Clear",
     marca: "Citadel",
     uso: "Aerografo",
@@ -26,6 +28,7 @@ export const inventario = [
   {
     sku: 2803,
     contenido: "18 ml",
+    linea: "Pinturas",
     nombre: "Militarum Green Contrast",
     marca: "Citadel",
     uso: "Pincel",
@@ -36,21 +39,21 @@ export const inventario = [
     },
   },
   {
-    linea: "Warhammer 40K",
     sku: 1001,
-    nombre: "Primaris Aggresors",
+    linea: "Warhammer 40K",
+    nombre: "Space Marines Devastators Squad",
     faccion: "Space Marines",
     precio: 39.99,
     destacado: 1,
     img: {
-      caja: "https://res.cloudinary.com/dzhtmtpav/image/upload/v1668623404/primaris-aggressors_rpirpu.png",
+      caja: "https://www.hangar019.cl/5967-large_default/space-marine-devastators-squad-citadel.jpg",
       armado:
         "https://www.hangar019.cl/9277-large_default/space-marines-primaris-aggressors-citadel.jpg",
     },
   },
   {
-    linea: "Warhammer 40K",
     sku: 1002,
+    linea: "Warhammer 40K",
     nombre: "Warrios with Canoptek Scarabs",
     faccion: "Necron",
     precio: 30.0,
@@ -61,8 +64,8 @@ export const inventario = [
     },
   },
   {
-    linea: "Warhammer 40K",
     sku: 1004,
+    linea: "Warhammer 40K",
     nombre: "Fire Warriors",
     faccion: "Tau Empire",
     precio: 45.0,
@@ -74,7 +77,7 @@ export const inventario = [
   },
   {
     sku: 2001,
-    linea: "Cephaloair Games",
+    linea: "Tabletop",
     nombre: "Glommhaven",
     precio: 120.0,
     destacado: 1,
@@ -86,7 +89,7 @@ export const inventario = [
   },
   {
     sku: 2002,
-    linea: "EDGE",
+    linea: "Tabletop",
     nombre: "Blood Rage",
     precio: 70.0,
     destacado: 0,
@@ -98,7 +101,7 @@ export const inventario = [
   },
   {
     sku: 2003,
-    linea: "Legendary",
+    linea: "Tabletop",
     nombre: "Dune: Imperium",
     faccion: "Necron",
     precio: 50.0,
