@@ -5,3 +5,7 @@
 .categorias--aside {
   margin-top: 100px;
 }
+
+.ctm--container {
+  flex: 1;
+}

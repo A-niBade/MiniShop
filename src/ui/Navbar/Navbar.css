@@ -11,10 +11,33 @@
   left: 0;
   position: fixed;
   top: 0;
-  z-index: 20;
+  z-index: 2;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.555);
   backdrop-filter: blur(2px);
+}
+
+.scrolled {
+  height: 60px;
+  padding: 1px;
+}
+
+.link-scrolled p {
+  font-size: 25px;
+}
+
+.logo-top {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition: transform 430ms ease-in-out;
+}
+
+.logo-scrolled {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: transform 430ms ease-in-out;
 }
 
 .navbar__icon {
@@ -34,6 +57,7 @@
   font-family: var(--mainFont);
   font-size: 35px;
   color: #fff;
+  font-weight: bold;
 }
 
 .navbar__logo--nombre--span {
@@ -43,5 +67,6 @@
 .nav-link__nombre {
   margin: 0;
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: var(--mainFont);
 }
