@@ -1,11 +1,23 @@
 import { Link } from "react-router-dom";
+import { useScroll } from "../../hooks/useScroll";
 import "./Navbar.css";
 
 export const Navbar = () => {
+  const scrollPosition = useScroll();
+
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav
+      className={`navbar navbar-expand-lg ${
+        scrollPosition > 0 ? `scrolled` : `scrolltop`
+      }`}
+    >
       <div className="container-fluid">
-        <Link className="navbar-brand navbar__logo" to={"/home"}>
+        <Link
+          className={`navbar-brand navbar__logo ${
+            scrollPosition > 0 ? `logo-scrolled` : `logo-top`
+          }`}
+          to={"/home"}
+        >
           <img src="/static/miniatura.png" className="navbar__icon" />
           <p className="navbar__logo--nombre">
             Mini<span className="navbar__logo--nombre--span">Shop</span>
@@ -25,7 +37,11 @@ export const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
+          <div
+            className={`navbar-nav ${
+              scrollPosition > 0 ? `link-scrolled` : ``
+            }`}
+          >
             <Link
               className="nav-link active"
               aria-current="page"
@@ -47,7 +63,7 @@ export const Navbar = () => {
               aria-label="page"
               to={"/coleccion/tabletop"}
             >
-              <p className="nav-link__nombre">Tabletop</p>
+              <p className="nav-link__nombre">Juegos de mesa</p>
             </Link>
           </div>
         </div>

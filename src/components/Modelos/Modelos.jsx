@@ -5,7 +5,7 @@ import { ProductoAside } from "../ProductoAside";
 export const Modelos = () => {
   const modelos = getModeloByLinea("Warhammer 40K");
   return (
-    <div className="container">
+    <div className="ctm--container container">
       <div className="row row__modelos">
         <ProductoAside linea="Warhammer 40K" />
         {modelos.map((modelo, i) => (
