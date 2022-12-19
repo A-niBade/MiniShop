@@ -1,7 +1,27 @@
-.footer--css {
-  /* position: absolute; */
+@font-face {
+  font-family: MedievalSharp;
+  src: url(/static/fonts/MedievalSharp.ttf);
+}
 
-  background-color: rgba(255, 0, 255, 0.397);
+.footer--css {
+  background-color: rgba(75, 104, 116, 0.397);
   width: 100%;
-  height: 100px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img--footer {
+  width: 40px;
+  height: 40px;
+}
+
+.iconos--redes img {
+  width: 32px;
+  height: 32px;
+}
+
+.titulo--footer {
+  font-weight: bold;
+  font-size: 50px;
 }
