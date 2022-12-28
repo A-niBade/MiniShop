@@ -22,3 +22,7 @@
   font-family: var(--mainFont);
   font-weight: bold;
 }
+
+.container--card {
+  margin-bottom: 50px;
+}

@@ -1,13 +1,13 @@
-import { ProductCategory } from "../ProductCategory";
 import { getProduct } from "../../services";
-import { useEffect, useState } from "react";
-import "./TableTop.css";
+import { ProductCategory } from "../ProductCategory";
+import { useState, useEffect } from "react";
+import "./Paints.css";
 
-export const TableTop = () => {
+export const Paints = () => {
   const [products, setProducts] = useState();
 
   const getProducts = async () => {
-    const products = await getProduct("juegos-de-mesa");
+    const products = await getProduct("pinturas");
     setProducts(products);
   };
 
@@ -18,15 +18,15 @@ export const TableTop = () => {
   return (
     <div className="container">
       <div className="row row__modelos">
-        <ProductCategory linea="Tabletop" />
+        <ProductCategory linea="Pinturas" />
         {products ? (
-          products.map((product) => (
+          products.map((modelo, i) => (
             <div className="col-sm-3">
               <div className="col card">
-                <img className="card-img-top p-2" src={product.img} />
+                <img className="card-img-top p-2" src={modelo.img} />
                 <div className="card-body text-center">
-                  <p className="card-title">{product.nombre}</p>
-                  <p className="">$ {product.precio.toFixed(3)}</p>
+                  <p className="card-title">{modelo.nombre}</p>
+                  <p className="">$ {modelo.precio}</p>
                   <p className="text-center">Despacho a todo Chile</p>
                   <button className="btn btn-primary">Agregar al carro</button>
                 </div>

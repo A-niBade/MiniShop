@@ -6,7 +6,7 @@ export const inventario = [
     nombre: "Blue Clear Air",
     marca: "Citadel",
     uso: "Aerografo",
-    precio: 6.0,
+    precio: 6000,
     destacado: 1,
     img: {
       caja: "https://res.cloudinary.com/dzhtmtpav/image/upload/v1668623404/air-citadel_uoxzsn.png",
@@ -43,7 +43,7 @@ export const inventario = [
     linea: "Warhammer 40K",
     nombre: "Space Marines Devastators Squad",
     faccion: "Space Marines",
-    precio: 39.99,
+    precio: 40000,
     destacado: 1,
     img: {
       caja: "https://www.hangar019.cl/5967-large_default/space-marine-devastators-squad-citadel.jpg",
@@ -79,7 +79,7 @@ export const inventario = [
     sku: 2001,
     linea: "Tabletop",
     nombre: "Glommhaven",
-    precio: 120.0,
+    precio: 100000,
     destacado: 1,
     img: {
       caja: "https://dojiw2m9tvv09.cloudfront.net/16153/product/X_cphgh01es_m_11370.png?27",

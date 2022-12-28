@@ -23,11 +23,7 @@ export const Carousel = () => {
           />
         </div>
         <div className="carousel-item">
-          <img
-            src="/static/img/c-03.webp"
-            className="d-block w-100"
-            alt="..."
-          />
+          <img src="/static/img/c-03.jpg" className="d-block w-100" alt="..." />
         </div>
       </div>
       <button

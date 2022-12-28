@@ -46,6 +46,11 @@
   margin-right: 10px;
 }
 
+.img--carro {
+  height: 60px;
+  width: 60px;
+}
+
 .navbar__logo {
   display: flex;
   justify-content: center;
