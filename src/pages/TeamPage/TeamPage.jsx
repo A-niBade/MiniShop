@@ -14,6 +14,7 @@ export const TeamPage = () => {
               <img src="https://dojiw2m9tvv09.cloudfront.net/16153/6/M_280308917_1399453737219307_9015314576942161072_n10588684.jpeg?27" />
             </aside>
             <div className="col">
+              <h1 className="titulo text-center">CONOCE LA TIENDA</h1>
               <p>
                 Somos un grupo de personas que nos une la pasión por las
                 miniaturas, juegos de rol, juegos de mesa y de cartas entre
